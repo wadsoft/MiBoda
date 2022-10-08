@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>..::: Karla & Fabián :::..</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<script src="https://kit.fontawesome.com/ded95265ea.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<header id="inicio">
+		<nav class="navbar">
+			<div class="contenedor">
+				<a href="#">Nuestra Historia</a>
+				<a href="#dia">Ceremonia</a>
+				<a href="#confirmar">Confirmar</a>
+            </div>
+		</nav>
+
+		<div class="carrusel carrusel__fade">
+			<a href="#blog">
+				<div class="carrusel_inner">
+					<div class="carrusel_item carrusel_item__active">
+						<img src="img/img1.jpg" alt="" class="carrusel_img">
+						<div class="carrusel_caption">
+							<h1 class="carrusel_title animate__animated animate__fadeInDown">Karla & Fabián</h1>
+							<p class="carrusel_description animate__animated animate__fadeInUp"></p>
+						 </div>
+					</div>
+					<div class="carrusel_item">
+						<img src="img/img2.jpg" alt="" class="carrusel_img">
+						<div class="carrusel_caption">
+							<h1 class="carrusel_title animate__animated animate__fadeInRight">Nos Casamos</h1>
+							<p class="carrusel_description animate__animated animate__fadeInLeft"></p>
+						 </div>
+					</div>
+					<div class="carrusel_item">
+						<img src="img/img3.jpg" alt="" class="carrusel_img">
+						<div class="carrusel_caption">
+							<h1 class="carrusel_title animate__animated animate__fadeInLeft"></h1>
+							<p class="carrusel_description animate__animated animate__fadeInUp">Queremos que seas parte de la unión de nuestras vidas</p>
+						 </div>
+					</div>
+					<div class="carrusel_item">
+						<img src="img/img8.jpg" alt="" class="carrusel_img">
+						<div class="carrusel_caption">
+							<h1 class="carrusel_title animate__animated animate__fadeInUp">Será inolvidable</h1>
+							<p class="carrusel_description animate__animated animate__fadeInUp"></p>
+						 </div>
+					</div>
+					<div class="carrusel_item">
+						<img src="img/img5.jpg" alt="" class="carrusel_img">
+						<div class="carrusel_caption">
+							<h1 class="carrusel_title animate__animated animate__fadeInDown"></h1>
+							<p class="carrusel_description animate__animated animate__fadeInUp"></p>
+						 </div>
+					</div>
+					<div class="carrusel_item">
+						<img src="img/img6.jpg" alt="" class="carrusel_img">
+						<div class="carrusel_caption">
+							<h1 class="carrusel_title animate__animated animate__zoomIn"></h1>
+							<p class="carrusel_description animate__animated animate__fadeInUp">Recuerda confirmar</p>
+						 </div>
+					</div>
+					<div class="carrusel_item">
+						<img src="img/img7.jpg" alt="" class="carrusel_img">
+						<div class="carrusel_caption">
+							<h1 class="carrusel_title animate__animated animate__fadeInDown">Los Esperamos</h1>
+							<p class="carrusel_description animate__animated animate__fadeInUp"></p>
+						 </div>
+					</div>
+				</div>
+			</a>
+		</div>
+
+		
+	</header>
+	<main id="blog">
+		<div class="contenedor">
+			<div class="contenido">
+				<div class="post">
+					<h1 class="titulo" id="dia">Fecha y Lugar</h1>
+					<p class="fecha"></p>
+					<p>
+                        Los esperamos el día Sábado 14 de Enero a las 18 hrs. <br>
+                        En la Iglesia San José, que está ubicada en la calle Balmaceda frente a la Plaza, Parral.
+                        <br>
+                        <br>
+                        Y después a celebrar en grande esta apasionante boda en Centro de Eventos 'Colomba', ubicada en Los Molinos #600, Parral.
+					</p>
+				</div>
+				<div class="post">
+					<h1 class="titulo" id="articulo-2">Nuestros Padrinos</h1>
+                    <p class="fecha"></p>
+					<p>
+                        
+                        Roberto Carlos Márquez Domínguez <br>
+                        Leticia Antonieta Sepúlveda Parra
+					</p>
+				</div>
+				<div class="post">
+                    <h1 class="titulo" id="confirmar">Confirma tu asistencia</h1>
+                    <p class="fecha confirma"></p>
+					<p>
+						<form action="enviar.php" method="post">
+							<div class="inputbox">
+								<input type="text" id="nombre" name="nombre" required="required">
+								<span>Ingresa tu Nombre</span>
+							</div>
+							<div class="inputbox">
+								<input type="text" id="mensaje" name="mensaje" required="required">
+								<span>Ingresa un Comentario</span>
+							</div>
+							
+							<button type="submit" class="btn btn_4">Confirmar</button>
+						</form>
+					</p>
+				</div>
+				<div class="post">
+					<h1 class="titulo" id="articulo-4">Y por último...</h1>
+                    <p class="fecha"></p>
+					<p>
+						Sabemos que nos querrán expresar su cariño y tendrán un lindo gesto hacia nosotros, por lo que les agradecemos hacerlo de una de las formas que aparecen a continuación y así seguir cumpliendo nuestros sueños.
+                        <br><br>
+						<label class="btn btn_3 show-btn">Mas Información</label>
+						<br>
+
+					</p>
+				</div>		
+			</div>
+
+			<div class="alert-box" id="detalle">
+				<h4>Transferencia o Depósito</h4>
+				<p>	Banco Estado <br>
+				Chequera Electrónica <br>
+				43370469246 <br>
+				Mauricio Fabián Valverde Márquez 
+				<br><br>
+				O en la entrada de la recepción encontrarás un baúl para depositar tu sobre.</p>
+			</div>
+	</main>
+	</div>
+	<script src="script.js"></script>
+	<footer>
+		<div class="contenedor-imagen">
+			<img src="img/img4.jpg" alt="">
+		</div>
+		<nav class="navbar">
+				<div class="contenedor">
+					<a href="#">Nuestra Historia</a>
+					<a href="#dia">Ceremonia</a>
+					<a href="#confirmar">Confirmar</a>
+			</div>
+		</nav>
+	</footer>
+</body>
+</html>
